@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+/* ====ANIMATION SECTION====*/
+
+@keyframes fondo {
+    from {
+        background-color: #70093d;
+    }
+    
+    to {
+        background-color: rgb(19, 7, 71);
+    }
+}
+
+
+
+/* ===POSITION AND STYLE===*/
+
+body {
+    /* ==BODY ANIMATION */
+
+    animation-name: fondo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+ 
+}
+
+.contenedor {
+    width: 350px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgb(255, 221, 221);
+    padding: 15px;
+
+}
+
+#texto {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: linear-gradient(180deg, #0063ff 0, #005bff 10%, #0051ff 20%, #0044f6 30%, #3f33ea 40%, #7415db 50%, #9400ca 60%, #ac00b7 70%, #be00a3 80%, #cc008e 90%, #d60079 100%);;
+    border-radius: 20px;
+    padding: 12px;
+    font-size: 20px;
+}
+
+h4 {
+    text-align: center;
+    color: blue;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+
+input {
+    width: 50%;
+    height: 30px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: rgb(150, 132, 248);
+    border-width: 3px;
+    display: block;
+    margin: auto;
+    font-size: 15px;
+    
+}
+
+button {
+    /* ===POSITION Y STYLE ==*/
+
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    color: rgb(170, 16, 231);
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: rgb(177, 86, 252);
+    font-weight: bold;
+    background: rgb(140, 219, 255);
+
+    
+}
+
+h1 {
+    text-align: center;
+    color: rgb(66, 46, 37);
+    margin-top: 0px;
+}
+
+button:hover{
+    background-color: rgb(255, 0, 128);
+    color: rgb(255, 255, 255);
+}
+
+p {
+    text-align: center;
+    margin: 0px;
+
+}
+
+
+Footer h3 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.329);
+    margin-top: 20px;
+    
+}
